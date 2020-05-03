@@ -1,5 +1,6 @@
 import HelloWorld from '@/components/HelloWorld';
 import button from '@/components/iview/button';
+import icon from '@/components/iview/icon';
 
 const routers = [{
     path: '/',
@@ -13,5 +14,11 @@ const routers = [{
         title: ''
     },
     component: button
+}, {
+    path: '/icon',
+    meta: {
+        title: ''
+    },
+    component: icon
 }];
 export default routers;
